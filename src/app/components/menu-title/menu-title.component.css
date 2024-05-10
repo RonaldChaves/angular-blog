@@ -1,0 +1,43 @@
+.menu-title-container hr {
+    margin: 1rem 1.5rem 0.5rem;
+}
+
+.title {
+    color: white;
+    margin: 0.8rem 0 0.8rem;
+    font-size: 15rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 960px) {
+    .title {
+        font-size: 10rem;
+    }
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .title {
+        font-size: 9rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .title {
+        font-size: 8rem;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .title {
+        font-size: 5rem;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .title {
+        font-size: 3rem;
+    }
+}

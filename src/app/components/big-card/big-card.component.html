@@ -1,0 +1,26 @@
+<main class="container">
+
+    <figure class="img-box">
+
+        <a [routerLink]="['content', Id]">
+            <img src="{{ photo }}" class="photo" alt="image">
+        </a>
+
+    </figure>
+
+    <div>
+
+        <span class="date">{{ date }}</span>
+        <a [routerLink]="['content', Id]">
+            <h1 class="title">
+                {{ title }}
+            </h1>
+        </a>
+        <p class="description">
+            {{ description }}
+        </p>
+
+    </div>
+
+</main>
+<hr>

@@ -16,14 +16,14 @@
           "standalone": false
         }
       },
-      "root": "/src/index.html",
+      "root": "",
       "sourceRoot": "src",
       "prefix": "app",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/angular-blog",
+            "outputPath": "docs/angular-blog",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [

@@ -16,7 +16,7 @@
           "standalone": false
         }
       },
-      "root": "",
+      "root": "/src/index.html",
       "sourceRoot": "src",
       "prefix": "app",
       "architect": {
